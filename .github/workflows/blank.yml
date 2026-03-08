@@ -1,0 +1,12 @@
+name: basic workflow for CICD
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print the welcome
+        run: echo "Hello world!"
+      - name: print finish
+        run: echo "Done!"
+         
+
